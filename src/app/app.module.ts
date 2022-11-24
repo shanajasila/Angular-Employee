@@ -7,6 +7,7 @@ import { AdminLoginComponent } from './admin-login/admin-login.component';
 import { AddEmployComponent } from './add-employ/add-employ.component';
 import { SearchEmployComponent } from './search-employ/search-employ.component';
 import { DeleteEmployComponent } from './delete-employ/delete-employ.component';
+import { ViewallEmployeeComponent } from './viewall-employee/viewall-employee.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { DeleteEmployComponent } from './delete-employ/delete-employ.component';
     AdminLoginComponent,
     AddEmployComponent,
     SearchEmployComponent,
-    DeleteEmployComponent
+    DeleteEmployComponent,
+    ViewallEmployeeComponent
   ],
   imports: [
     BrowserModule,
