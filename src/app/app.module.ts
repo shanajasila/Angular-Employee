@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { AdminLoginComponent } from './admin-login/admin-login.component';
 import { AddEmployComponent } from './add-employ/add-employ.component';
 import { SearchEmployComponent } from './search-employ/search-employ.component';
+import { DeleteEmployComponent } from './delete-employ/delete-employ.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AdminLoginComponent,
     AddEmployComponent,
-    SearchEmployComponent
+    SearchEmployComponent,
+    DeleteEmployComponent
   ],
   imports: [
     BrowserModule,
